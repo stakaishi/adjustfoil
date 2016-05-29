@@ -47,7 +47,7 @@ target2:
 	for(int i = 0; i < start - 1; i++){
 		//file.byLine.popFront();     // empty lines remove.
                 //wip. empty lines remove over ride. 
-                //変換前txtのにある上下分割のスペースを、
+                //変換前txtにある上下分割のスペースを、
                 //あらかじめ消して対応。
                 //また座標表記上のナンバリングを消して対応。
 
