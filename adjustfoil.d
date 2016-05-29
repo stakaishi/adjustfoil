@@ -45,7 +45,13 @@ target2:
 	string foilname = file.readln();	//get the foil name.
 
 	for(int i = 0; i < start - 1; i++){
-		file.byLine.popFront();     // empty lines remove.
+		//file.byLine.popFront();     // empty lines remove.
+                //wip. empty lines remove over ride. 
+                //変換前txtのにある上下分割のスペースを、
+                //あらかじめ消して対応。
+                //また座標表記上のナンバリングを消して対応。
+
+
 	}
 
 target3:
@@ -59,7 +65,11 @@ target3:
 			int count = 0,
 				border,
 				flag = 0;
-			file.byLine.popFront();  
+			//file.byLine.popFront();  // 1 line remove?
+			//wip 1 line remove over ride.
+			//wip , 1 line remove over ride. 1行飛ばしをオーバーライド。wip
+			
+			
 			while (file.readf(form, &x, &y)){
 				if(x == 1 && flag == 0){
 					border = count;
@@ -89,7 +99,11 @@ target3:
 			while (file.readf(form, &x, &y)){
 				x_od ~= x;
 				y_od ~= y;
-				file.byLine.popFront();     // 1 line remove.	
+				//file.byLine.popFront();     // 1 line remove.	
+			        //wip , 1 line remove over ride. 1行飛ばしをオーバーライド。wip
+			
+			
+			
 			}
 			break;
 		default :
