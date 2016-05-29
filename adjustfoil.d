@@ -68,7 +68,7 @@ target3:
 				x_od ~= x;
 				y_od ~= y;
 				//file.byLine.popFront();     // 1 line remove.
-				//wip , 1 line remove over ride. 1行飛ばしをオーバライド。wip
+				//wip , 1 line remove over ride. 1行飛ばしをオーバーライド。wip
 				
 				count++;	
 			}
